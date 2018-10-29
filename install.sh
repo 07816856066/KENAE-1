@@ -220,4 +220,4 @@ echo -e "\27[34m     »»     KENAE Channel ; @ke_na     ««\e[0m"
 chmod +x ER
 chmod +x ES
 chmod +x KENAE
-./KE
+./EK
