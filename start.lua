@@ -14,7 +14,7 @@ KENAE_file:write("token = '" ..tokenCk.."'\n\nsudo_add = "..sudo_send.."" )
 KENAE_file:close()
 os.execute('cd .. && rm -fr .telegram-cli')
 os.execute('cd && rm -fr .telegram-cli')
-os.execute('./RE -s ./KENAE.lua $@ --bot='..tokenCk)
+os.execute('./ER -s ./KENAE.lua $@ --bot='..tokenCk)
 else
 print("\27[31m»»This TOKEN Incorrect , Send Right TOKEN««\27[m")
 local token_send = io.read()
@@ -35,7 +35,7 @@ local getme = "https://api.telegram.org/bot" ..token.. '/getme'
 local req = https.request(getme)
 local data = JSON:decode(req)
 if data.ok == true then
-os.execute('./RE -s ./KENAE.lua $@ --bot='..token)
+os.execute('./ER -s ./KENAE.lua $@ --bot='..token)
 else
 print("\27[31mTOKEN Incorrect , Send Right TOKEN««\27[m")
 local token_send = io.read()
