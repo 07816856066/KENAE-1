@@ -217,7 +217,7 @@ reset
 echo -e "\e[38;5;77m     »»     Welcome to install KENAE     ««\e[0m"
 echo -e "\e[38;5;77m       »»     Install KENAE [100%]     ««\e[0m"
 echo -e "\27[34m     »»     KENAE Channel ; @ke_na     ««\e[0m"
-chmod +x tg
-chmod +x ts
+chmod +x RE
+chmod +x ES
 chmod +x KENAE
-./ts
+./KE
